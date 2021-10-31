@@ -3,7 +3,7 @@ import {SearchIcon , GlobeAltIcon , MenuIcon , UserIcon , UserCircleIcon} from '
 
 function Header() {
     return (
-        <header className=" bg-white sticky top-0 z-50 p-5 grid grid-cols-3 shadow-md md:px-10">
+        <header className=" bg-white sticky top-0 z-50 p-3 grid grid-cols-3 shadow-md md:px-10">
             {/* left */}
             <div className="relative flex h-10 items-center cursor-pointer my-auto ">
                 <Image src="https://links.papareact.com/qd3" layout="fill" objectFit="contain" objectPosition="left" />
